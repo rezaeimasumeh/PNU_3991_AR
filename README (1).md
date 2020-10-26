@@ -15,7 +15,7 @@
 
 ##دروس کارشناسی
 
-[1115157_01 & 02 نظريه زبانهاوماشين ها 3]()
+[1115157_01 & 02 نظريه زبانهاوماشين ها 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines)
 <br>
 
 <br>[1322110_01 طراحي واسط كاربر 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/UserInterfaceDesgin)
