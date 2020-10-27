@@ -12,7 +12,7 @@
 ------------------
 ## Winter Semester Courses 1399/2020
 
-##دروس کارشناسی
+## دروس کارشناسی
 
 [1115157_01 & 02 نظريه زبانهاوماشين ها 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines)
 <br>
