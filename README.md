@@ -4,9 +4,9 @@
  معصومه رضایی
 ---
 - [حساب گیت هاب](لینک گیت هاب)
-- rezaeimasumeh
+rezaeimasumeh
 - [رزومه](لینک رزومه)
-- rezaeimasumeh.github.io
+rezaeimasumeh.github.io
 - [SOP](لینک انگیزه نامه)
 
 
