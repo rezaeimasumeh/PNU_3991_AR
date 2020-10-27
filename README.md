@@ -3,7 +3,7 @@
 ### اسم
  معصومه رضایی
 ---------
-- [حساب گیت هاب](https://github.com/rezaeimasume/)
+- [حساب گیت هاب](https://github.com/rezaeimasumeh)
 
 - [رزومه](https://rezaeimasumeh.github.io)
 
