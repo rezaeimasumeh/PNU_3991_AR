@@ -6,7 +6,7 @@
 
 - [رزومه](https://rezaeimasumeh.github.io)
 
-- [SOP](لینک انگیزه نامه)
+- [SOP](https://github.com/rezaeimasumeh/sop/blob/main/README.md)
 
 
 ------------------
