@@ -76,7 +76,6 @@
     <th ></th>
      <th ></th>
      <th ></th>
-     <th ></th>
      <th><a></a></th>
     <th>پنج شنبه</th>
   </tr>
