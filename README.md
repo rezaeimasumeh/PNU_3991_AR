@@ -6,7 +6,7 @@
 
 - [رزومه](https://rezaeimasumeh.github.io)
 
-- [SOP](https://github.com/rezaeimasumeh/sop/blob/main/README.md)
+- [SOP](https://rezaeimasumeh.github.io/sop/)
 
 
 ------------------
