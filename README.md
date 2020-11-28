@@ -2,9 +2,9 @@
 ---------
 # معصومه رضایی
 ---------
-- [حساب گیت هاب](https://github.com/rezaeimasumeh)
+- [githob](https://github.com/rezaeimasumeh)
 
-- [رزومه](https://rezaeimasumeh.github.io)
+- [rezume](https://rezaeimasumeh.github.io)
 
 - [SOP](https://rezaeimasumeh.github.io/sop/)
 
