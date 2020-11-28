@@ -2,7 +2,7 @@
 ---------
 # معصومه رضایی
 ---------
-- [githob](https://github.com/rezaeimasumeh)
+- [github](https://github.com/rezaeimasumeh)
 
 - [rezume](https://rezaeimasumeh.github.io)
 
