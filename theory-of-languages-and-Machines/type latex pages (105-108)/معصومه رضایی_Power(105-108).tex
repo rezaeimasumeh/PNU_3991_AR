@@ -1,0 +1,396 @@
+\documentclass[8pt]{beamer}
+\usetheme{Berkeley}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\linespread{1.35}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+
+\begin{document}
+
+\begin{frame}
+ \section*{Solved Problems}
+\begin{flushright}
+ \texttt{Finite Automata} \hspace*{0.1cm}\textbf{$|$} \hspace*{0.1cm} \textbf{105}\hspace*{0.1cm}
+\end{flushright}
+\vspace*{0.5cm}
+
+\begin{center}
+\begin{tabular}{ccccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ &  \multicolumn{2}{c}{$I/P = 0$ } &  \multicolumn{2}{c}{$I/P = 1$}  \\
+  \cline{2-3}                         \cline{4-5}
+ $Present State$ &   $Next State$  & $O/P$ &  $Next State$  & $O/P$\\
+\hline
+$q_20$             &  $q_11$  &  $1$  &  $q_21$  & $1$ \\
+$q_21$             &  $q_11$  &  $1$  &  $q_21$  & $1$ \\
+$q_3$             &  $q_20$  &  $1$  &  $q_0$  & $1$ \\
+
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+
+\vspace*{0.1cm}
+The converted Moore machine is\\
+\vspace*{0.1cm}
+
+\begin{center}
+\begin{tabular}{cccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ & \multicolumn{2}{c}{$Next State$}\\
+ \cline{2-3}
+ $State$ &  $I/P=0$ & $I/P=1$  &  $O/P$\\
+\hline
+$\rightarrow q_0$  &    $q_0$   &  $q_10$   &  $1$ \\
+$q_10$              &    $q_3$   &  $q_3$   &  $0$ \\
+$q_11$              &    $q_3$   &  $q_3$   &  $1$ \\
+$q_20$              &    $q_11$   &  $q_21$   &  $0$ \\
+$q_21$              &    $q_11$   &  $q_21$   &  $1$ \\
+$q_3$              &    $q_20$   &  $q_0$   &  $1$ \\
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+
+\vspace*{0.3cm}
+
+\end{frame}
+
+\begin{frame}
+To get rid of the problem of occurrence of a null string, we need to include another state, $q_a$, with
+the same transactions as that of q0 but with output 0.\\
+\hspace*{0.5cm} The modified final Moore machine equivalent to the given Mealy machine is\\
+
+\begin{center}
+\begin{tabular}{cccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ & \multicolumn{2}{c}{$Next State$}\\
+ \cline{2-3}
+ $State$ &  $I/P=0$ & $I/P=1$  &  $O/P$\\
+\hline
+$\rightarrow q_a$ & $q_0$  & $q_10$  & 0\\
+$q_0$ & $q_0$ & $q_10$ &1\\
+$q_10$ & $q_3$ & $q_3$ &0\\
+$q_11$ & $q_3$ & $q_3$ &1\\
+$q_20$ & $q_11$ & $q_21$ &0\\
+$q_21$ & $q_11$ & $q_21$ &1\\
+$q_3$  & $q_20$ & $q_0$ &1\\
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+
+\vspace*{0.3cm}
+\end{frame}
+
+\begin{frame}
+17. Convert the following Mealy Machine to a Moore Machine.  \hspace*{0.5cm} [WBUT 2008]\\
+
+\vspace*{0.3cm}
+\begin{center}
+\begin{tabular}{ccccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ &  \multicolumn{2}{c}{ Next State   $I/P = 0$ } &  \multicolumn{2}{c}{ Next State   $ I/P = 1$}  \\
+  \cline{2-3}                         \cline{4-5}
+ $Present State$ &State & Output &  State & Output\\
+\hline
+$Q_1$   &  $q_2$  &  $1$  &  $q_1$  & $0$ \\
+$Q_2$   &  $q_3$  &  $0$  &  $q_4$  & $1$ \\
+$Q_3$   &  $q_1$  &  $0$  &  $q_4$  & $0$ \\
+$Q_4$   &  $q_3$  &  $1$  &  $q_2$  & $1$ \\
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\section*{Solved Problems}
+\begin{flushleft}
+    \textbf{106}\hspace*{0.1cm} \textbf{$|$} \hspace*{0.1cm} \texttt{Introduction to Automata Theory, Formal Languages and Computation}
+  \end{flushleft}
+  \vspace*{0.5cm}
+
+\textbf{Solution:} $Q_3$ and $_4$ as next states produce outputs 0 and 1, and so the states are divided into $Q_30$, $Q_31$
+and $Q_40$, $Q_41$. Thus, the constructing Moore machine contains six states. The Moore machine becomes\\
+
+\begin{center}
+\begin{tabular}{cccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ & \multicolumn{2}{c}{$Next State$}\\
+ \cline{2-3}
+ $State$ &  $I/P=0$ & $I/P=1$  &  $Output$\\
+\hline
+$Q_1$  &$Q_2$  & $Q_1$  &  0\\
+$Q_2$  &$Q_30$ & $Q_41$& 1\\
+$Q_30$ &$Q_1$  & $Q_40$& 0\\
+$Q_31$ &$Q_1$  & $Q_40$& 1\\
+$Q_40$ &$Q_31$ & $Q_2$& 0\\
+$Q_41$ &$Q_31$ & $Q_2$& 1\\
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+
+\vspace*{0.3cm}
+\end{frame}
+
+\begin{frame}
+18. From the following Mealy machine, find the equivalent Moore machine. Check whether the Mealy
+machine is a minimal one or not. Give proper justification to your answer. \hspace*{7cm} [WBUT 2007]\\
+
+\begin{center}
+\begin{tabular}{ccccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ &  \multicolumn{2}{c}{$I/P = 0$ } &  \multicolumn{2}{c}{$I/P = 1$}  \\
+  \cline{2-3}                         \cline{4-5}
+ $Present State$ &   $Next State$  & $O/P$ &  $Next State$  & $O/P$\\
+\hline
+$S_1$ & $S_2$ & 0 & $S_1$ &0\\
+$S_2$ & $S_2$ & 0 & $S_3$ &0\\
+$S_3$ & $S_4$ & 0 & $S_1$ &0\\
+$S_4$ & $S_2$ & 0 & $S_5$ &0\\
+$S_5$ & $S_2$ & 0 & $S_1$ &1\\
+
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+
+\vspace*{0.3cm}
+\end{frame}
+
+\begin{frame}
+\emph{
+\textbf{Solution:}\\
+}
+
+i) In the Mealy machine, $S_1$ as the next state produces output 0 for some cases and produces
+output 1 for one case. For this reason, the state $S_1$ is divided into two parts: $S_10$ and $S_11$. All the
+other states produce output 0.\\
+To get rid of the problem of occurrence of a null string, we need to include another state, $S_a$,
+with the same transactions as that of $S_10$ but with output 0.\\
+\hspace*{0.5cm} The modified final Moore machine equivalent to the given Mealy machine will be as follows.\\
+\end{frame}
+
+\begin{frame}
+\hspace*{0.5cm}The converted Moore machine is\\
+
+\vspace*{0.4cm}
+\begin{center}
+\begin{tabular}{cccc}
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+ & \multicolumn{2}{c}{$Next State$}\\
+ \cline{2-3}
+ $State$ &  $I/P=0$ & $I/P=1$  &  $Output$\\
+\hline
+$S_a$  & $S_2$   & $S_10$ & 0\\
+$S_10$ & $S_2$  & $S_10$ & 0\\
+$S_11$ & $S_2$  & $S_10$& 1\\
+$S_2$  & $S_2$   & $S_3$  & 0\\
+$S_3$  & $S_4$   & $S_10$ & 0\\
+$S_4$  & $S_2$   & $S_5$  & 0\\
+$S_5$  & $S_2$   & $S_11$ & 0\\
+ \hline
+
+ \hline
+
+ \hline
+
+ \hline
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}
+ \section*{Solved Problems}
+\begin{flushright}
+ \texttt{Finite Automata} \hspace*{0.1cm}\textbf{$|$} \hspace*{0.1cm} \textbf{107}\hspace*{0.1cm}
+\end{flushright}
+\vspace*{0.5cm}
+
+ii) All the states are 0 equivalents.\\
+
+\hspace*{4cm} $P_0 = \{S_1S_2S_3S_4S_5\}$ \\
+
+\hspace*{0.5cm} For string length 1, all the states produce output 0 except $S_5$.\\
+
+\hspace*{4cm} $P_1 = \{S_1S_2S_3S_4\}\{S_5\}$ \\
+
+\hspace*{0.5cm} The next states of all the states (belong to the first subset) for all inputs belong to one set
+except $S_4$. The modified partition is\\
+
+\hspace*{4cm} $P_2 = \{S_1S_2S_3\}\{S4\}\{S5\}$ \\
+
+\hspace*{0.5cm} By this process, $P_3 = \{S1S2\}\{S3\}\{S4\}\{S5\}$ \\
+
+\hspace*{4cm} $P_4 = \{S_1\}\{S_2\}\{S_3\}\{S_4\}\{S_5\}$ \\
+
+\hspace*{0.5cm} The machine is a reduced machine as the number of subsets of the machine is the same
+as the number of states of the original Mealy machine. Hence, the machine is a minimal
+machine.\\
+
+\vspace*{0.4cm}
+\end{frame}
+
+\begin{frame}
+19. Convert the following Moore machine into an equivalent Mealy machine by the transitional
+format.\\
+
+\vspace*{0.1cm}
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=3cm]{107.png}
+\end{center}
+
+\textbf{Solution:}\\
+i) In this machine, A is the beginning state. So start from A. For A, there are three incoming
+arcs, from A to A with input b, one in the form of start-state indication with no input, and the
+last is from D to A with input a. State A is labelled with output 1. As the start-state indication
+contains no input, it is useless and, therefore, keep it as it is.\\
+\end{frame}
+
+
+\begin{frame}
+\hspace*{0.5cm} Modify the label of the incoming edge from D to A and from A to A including the output
+of state A. So, the label of the incoming state will be D to A with label a/1 and A to A with
+label b/1.\\
+
+\vspace*{0.2cm}
+ii) State B is labelled with output 0. The incoming edges to the state B are from A to B with input
+a and from D to B with input b.\\
+\hspace*{0.5cm} Modify the labels of the incoming edges including the output of state B. So, the labels of
+the incoming states will be A to B with label a/0 and from D to B with label b/0.\\
+
+\vspace*{0.2cm}
+iii) State C is labelled with output 0. There are two incoming edges to this state, from B to C with
+input b and from C to C with input a.\\
+\hspace*{0.5cm} The modified label will be B to C with label b/0 and C to C with label a/0.\\
+\end{frame}
+
+\begin{frame}
+\section*{Solved Problems}
+\begin{flushleft}
+    \textbf{108}\hspace*{0.1cm} \textbf{$|$} \hspace*{0.1cm} \texttt{Introduction to Automata Theory, Formal Languages and Computation}
+  \end{flushleft}
+  \vspace*{0.5cm}
+
+iv) State D is labelled with output 1. There are two incoming edges to this state, from B to D with
+input a and from C to D with input b.\\
+\hspace*{0.5cm} The modified label will be B to D with label a/1, and C to D with label b/1.\\
+\hspace*{0.5cm} The converted Mealy machine will be\\
+
+\vspace*{0.3cm}
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=3cm]{108-1.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+20. Convert the following Mealy machine into an equivalent Moore machine by the transitional
+format.\\
+
+\vspace*{0.3cm}
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=3cm]{108-2.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\textbf{Solution:} The machine contains four states. Let us start from the state A. The incoming
+edges to this state are from D to A with label a/0. There is no difference in the outputs of the
+incoming edges to this state, and so in the constructing Moore machine the output for this
+state will be 0.\\
+
+\vspace*{0.1cm}
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=3cm]{108-3.png}
+\end{center}
+
+\small{
+For the state B, the incoming edges are B to B with label a/1, from A to B with label a/0, and from
+C to B with label b/1.\\
+\hspace*{0.5cm} We get two different outputs for two incoming edges (B to B output 1, A to B output 0). So, the
+state B will be divided into two, namely, B0 and B1. The outgoing edges are duplicated for both
+the states generated from B. The modified machine is}\\
+\end{frame}
+\end{document}
