@@ -11,7 +11,13 @@
 - [javascript Certificate](https://github.com/rezaeimasumeh/javascript-evidence/blob/main/javascript.jpg)
 
 - [jlord patchwork](https://github.com/rezaeimasumeh/patchwork/blob/gh-pages/html.png)
+
 ------------------
+> ارزیابی ها
+
+## بخش عمومی
+- [ارزیابی رزومه و انگیزه نامه](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/_General/MR_CV_CheckList_AR_3991.pdf)
+
 ## Winter Semester Courses 1399/2020
 
 ## دروس کارشناسی
