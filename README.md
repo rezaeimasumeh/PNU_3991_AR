@@ -15,7 +15,7 @@
 ------------------
 ## ارزیابی ها
 
->بخش عمومی
+>  بخش عمومی
 
 - [ارزیابی رزومه و انگیزه نامه](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/_General/MR_CV_CheckList_AR_3991.pdf)
 
@@ -27,7 +27,6 @@
 
 [1115157_01 & 02 نظريه زبانهاوماشين ها 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines)
 <br>
-
 <br>[1322110_01 طراحي واسط كاربر 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/UserInterfaceDesgin)
 
 --------------
