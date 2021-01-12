@@ -86,7 +86,8 @@
      <th ></th>
      <th >اصول طراحی کامپایلر</th>
      <th><a  href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/UserInterfaceDesgin">طراحي واسط كاربر
-01-1322110</a>جبرخطی کاربردی<th>
+01-1322110</a>
+    <th>جبرخطی کاربردی<th>
     <th>طراحی الگوریتم</th>   
     <th>دوشنبه</th>
   </tr>
