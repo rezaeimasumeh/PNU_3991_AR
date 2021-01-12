@@ -70,8 +70,8 @@
     <th ></th>
     <th >مطالعه دروس</th>
     <th ><a href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines">نظريه زبانهاوماشين ها 01-1115157
-    <th></th>
-    <th>سیگنالها وسیستم ها</th>
+    <th>سیستم هاوسیگنالها</th>
+    <th>جبرخطی کاربردی</th>
     <th>شنبه</th>
   </tr>
    <tr>
