@@ -24,6 +24,10 @@
 
 - [خلاصه ارزیابی بخش عمومی](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/_General/MR_GeneralSection_CheckList_AR_3991.pdf)
 
+> بخش دروس کارشناسی 
+
+- [خلاصه ارزیابی درس طراحی واسط کاربر]()
+
 ## Winter Semester Courses 1399/2020
 
 ## دروس کارشناسی
