@@ -26,7 +26,10 @@
 
 > بخش دروس کارشناسی 
 
-- [خلاصه ارزیابی درس طراحی واسط کاربر]()
+- [خلاصه ارزیابی درس طراحی واسط کاربر](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/UserInterfaceDesgin/MR_UserInterfaceDesgin_CheckList_AR_3991.pdf)
+
+-[خلاصه ارزیابی درس نظریه زبانها وماشینها]()
+
 
 ## Winter Semester Courses 1399/2020
 
