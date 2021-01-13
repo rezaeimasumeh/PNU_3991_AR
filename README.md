@@ -30,15 +30,15 @@
 
 - [خلاصه ارزیابی درس طراحی واسط کاربر](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/UserInterfaceDesgin/MR_UserInterfaceDesgin_CheckList_AR_3991.pdf)
 
-
+----------------------
 
 ## Winter Semester Courses 1399/2020
 
 ## دروس کارشناسی
 
-[1115157_01 & 02 نظريه زبانهاوماشين ها 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines)
+[1115157_01 نظريه زبانهاوماشينها](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines)
 <br>
-<br>[1322110_01 طراحي واسط كاربر 3](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/UserInterfaceDesgin)
+<br>[1322110_01 طراحي واسط كاربر ](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/UserInterfaceDesgin)
 
 --------------
 
