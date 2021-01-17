@@ -15,9 +15,9 @@
 
 - [jlord patchwork](https://github.com/rezaeimasumeh/patchwork/blob/gh-pages/html.png)
 
-- [type latex_105-108*](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines/type%20latex%20pages%20(105-108))
+- [type latex_105-108](https://github.com/rezaeimasumeh/PNU_3991_AR/tree/main/theory-of-languages-and-Machines/type%20latex%20pages%20(105-108))
 
-- [work report_typelatex*](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/theory-of-languages-and-Machines/work%20report.tex)
+- [work report_typelatex](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/theory-of-languages-and-Machines/work%20report.tex)
 
 
 ------------------
