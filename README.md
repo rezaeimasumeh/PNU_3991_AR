@@ -19,7 +19,7 @@
 
 - [work report_typelatex](https://github.com/rezaeimasumeh/PNU_3991_AR/blob/main/theory-of-languages-and-Machines/work%20report.tex)
 
-
+- [ویدئو ارائه فصل ۵ نظریه زبانها وماشین ها](https://s16.picofile.com/file/8422889042/AndroVid_join_8289.zip.html)
 ------------------
 
 ## ارزیابی ها
